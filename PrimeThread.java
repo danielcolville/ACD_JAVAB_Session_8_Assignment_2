@@ -18,7 +18,7 @@ public class PrimeThread extends Thread implements Runnable {
 		else {
 			for(int i=2;i<=breakpoint;i++) {
 				if(num%i==0) {
-					
+					System.out.println(num+" is not Prime");	
 					return;
 				}
 			}
