@@ -8,7 +8,6 @@ public class PrimeThread extends Thread implements Runnable {
 	}
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		super.run();
 		int breakpoint=num/2;
 		if(num==0||num==1) {
